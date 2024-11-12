@@ -1,8 +1,10 @@
-# DEPRECATED
+# INSTRUCTION
 
-This package upgrade the deprecated [`@capacitor-community/barcode-scanner`](https://github.com/capacitor-community/barcode-scanner) plugin to support CapacitorJS V6, Why?
+This package upgrades the deprecated [`@capacitor-community/barcode-scanner`](https://github.com/capacitor-community/barcode-scanner) plugin to support CapacitorJS V6, Why?
 * Alternative [`@capacitor-community/barcode-scanner`](https://github.com/ionic-team/capacitor-barcode-scanner) v1 has NOT full features of [`@capacitor-community/barcode-scanner`](https://github.com/capacitor-community/barcode-scanner).
 * Alternative [`@capacitor-mlkit/barcode-scanning`](https://github.com/capawesome-team/capacitor-mlkit/tree/main/packages/barcode-scanning) need google play service, so it DOES NOT support for all devices without google play service.
+
+So if you are using CapacitorJS V6 to develop one app for None Google Play Service Region (like China), JUST use it, Otherwise skip this package.
 
 ## Table of Contents
 
