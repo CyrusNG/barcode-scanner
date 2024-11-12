@@ -1,6 +1,6 @@
 {
-  "name": "@capacitor-community/barcode-scanner",
-  "version": "4.0.1",
+  "name": "capacitor-plugin-qr-barcode-scanner",
+  "version": "5.0.0",
   "description": "A fast and efficient (QR) barcode scanner for Capacitor",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -17,10 +17,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/capacitor-community/barcode-scanner.git"
+    "url": "git+https://github.com/CyrusNG/capacitor-plugin-qr-barcode-scanner.git"
   },
   "bugs": {
-    "url": "https://github.com/capacitor-community/barcode-scanner/issues"
+    "url": "https://github.com/CyrusNG/capacitor-plugin-qr-barcode-scanner/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   },
   "keywords": [
     "capacitor",
@@ -79,12 +82,12 @@
       "dist/**/*"
     ]
   },
-  "homepage": "https://github.com/capacitor-community/barcode-scanner#readme",
+  "homepage": "https://github.com/CyrusNG/capacitor-plugin-barcode-scanner#readme",
   "directories": {
     "example": "examples"
   },
   "dependencies": {
-    "@zxing/browser": "^0.1.3",
-    "@zxing/library": "^0.20.0"
+    "@zxing/browser": "^0.1.5",
+    "@zxing/library": "^0.21.0"
   }
 }
